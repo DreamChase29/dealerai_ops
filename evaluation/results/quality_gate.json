@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-08-11T17:12:02.391754+00:00",
+  "accepted": true,
+  "threshold_version": "phase10-defaults-2026-08-11",
+  "results_path": "evaluation\\results\\latest.json",
+  "metrics": [
+    {
+      "name": "task_success",
+      "description": "Pass rate for the task_success scorer across all scenarios.",
+      "value": 1.0,
+      "threshold": 0.9,
+      "comparator": ">=",
+      "passed": true,
+      "numerator": 121,
+      "denominator": 121
+    },
+    {
+      "name": "tool_selection_accuracy",
+      "description": "Pass rate for expected tool calls in tool-selection scenarios.",
+      "value": 1.0,
+      "threshold": 0.95,
+      "comparator": ">=",
+      "passed": true,
+      "numerator": 11,
+      "denominator": 11
+    },
+    {
+      "name": "transaction_consistency",
+      "description": "Pass rate for applicable transaction_state_consistency scorer results.",
+      "value": 1.0,
+      "threshold": 1.0,
+      "comparator": ">=",
+      "passed": true,
+      "numerator": 28,
+      "denominator": 28
+    },
+    {
+      "name": "pii_safety_pass_rate",
+      "description": "Scenario pass rate for PII/safety scenarios.",
+      "value": 1.0,
+      "threshold": 1.0,
+      "comparator": ">=",
+      "passed": true,
+      "numerator": 11,
+      "denominator": 11
+    },
+    {
+      "name": "required_escalation_recall",
+      "description": "Pass rate for applicable required_escalation scorer results.",
+      "value": 1.0,
+      "threshold": 0.95,
+      "comparator": ">=",
+      "passed": true,
+      "numerator": 40,
+      "denominator": 40
+    },
+    {
+      "name": "rag_retrieval_hit_rate",
+      "description": "Pass rate for RAG retrieval_hit scorer results.",
+      "value": 1.0,
+      "threshold": 0.9,
+      "comparator": ">=",
+      "passed": true,
+      "numerator": 11,
+      "denominator": 11
+    },
+    {
+      "name": "hallucinated_transaction_rate",
+      "description": "Failure rate for applicable hallucinated_transaction scorer results.",
+      "value": 0.0,
+      "threshold": 0.0,
+      "comparator": "<=",
+      "passed": true,
+      "numerator": 0,
+      "denominator": 121
+    }
+  ]
+}
