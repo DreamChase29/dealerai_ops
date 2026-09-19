@@ -1,0 +1,918 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/2x4rdx",
+    "id": "2x4rdx",
+    "slide": 8,
+    "layoutId": "03fa9d8a-d9a7-4cab-a007-84f5e4116d9c",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "9bf232a6-d6f6-43c0-be6f-e2f222ccacb5",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F7F5EF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "03fa9d8a-d9a7-4cab-a007-84f5e4116d9c",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "9bf232a6-d6f6-43c0-be6f-e2f222ccacb5",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "9bf232a6-d6f6-43c0-be6f-e2f222ccacb5",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/edofat47",
+      "id": "1",
+      "bbox": [
+        72,
+        42,
+        620,
+        26
+      ],
+      "geometry": "rect",
+      "text": "FUNCTION CALLING",
+      "textPreview": "FUNCTION CALLING",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#245C5A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FUNCTION CALLING"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FUNCTION CALLING",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#245C5A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "FUNCTION CALLING",
+              "fontSize": 16,
+              "color": "#245C5A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1gfy58ny",
+      "id": "2",
+      "bbox": [
+        72,
+        76,
+        1010,
+        86
+      ],
+      "geometry": "rect",
+      "text": "Tool calling is the safety boundary",
+      "textPreview": "Tool calling is the safety boundary",
+      "resolvedFontSize": 40,
+      "resolvedTextStyle": {
+        "fontSize": 40,
+        "typeface": "+mn-lt",
+        "color": "#1F262A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Tool calling is the safety boundary"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Tool calling is the safety boundary",
+          "resolvedTextStyle": {
+            "fontSize": 40,
+            "color": "#1F262A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Tool calling is the safety boundary",
+              "fontSize": 40,
+              "color": "#1F262A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0f6xc3md",
+      "id": "3",
+      "bbox": [
+        110,
+        214,
+        300,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Tool contract",
+      "textPreview": "Tool contract",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Tool contract"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Tool contract",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Tool contract",
+              "fontSize": 24,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#245C5A",
+      "lineColor": "#245C5A",
+      "lineWidth": 1
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rqxgzy5g",
+      "id": "4",
+      "bbox": [
+        110,
+        278,
+        300,
+        190
+      ],
+      "geometry": "roundRect",
+      "text": "Pydantic input/output schemas\nrisk level\nconfirmation flag",
+      "textPreview": "Pydantic input/output schemas | risk level | confirmation flag",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#1F262A",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Pydantic input/output"
+          },
+          {
+            "index": 2,
+            "text": "schemas"
+          },
+          {
+            "index": 3,
+            "text": "risk level"
+          },
+          {
+            "index": 4,
+            "text": "confirmation flag"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Pydantic input/output schemas",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#1F262A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Pydantic input/output schemas",
+              "fontSize": 22,
+              "color": "#1F262A",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "risk level",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#1F262A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "risk level",
+              "fontSize": 22,
+              "color": "#1F262A",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "confirmation flag",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#1F262A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "confirmation flag",
+              "fontSize": 22,
+              "color": "#1F262A",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8D7D0",
+      "lineWidth": 1
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qp4f6tob",
+      "id": "5",
+      "bbox": [
+        470,
+        214,
+        300,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Execution control",
+      "textPreview": "Execution control",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Execution control"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Execution control",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Execution control",
+              "fontSize": 24,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#245C5A",
+      "lineColor": "#245C5A",
+      "lineWidth": 1
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dsfy1onm",
+      "id": "6",
+      "bbox": [
+        470,
+        278,
+        300,
+        190
+      ],
+      "geometry": "roundRect",
+      "text": "authorization hook\nrequest ID\naudit logging",
+      "textPreview": "authorization hook | request ID | audit logging",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#1F262A",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "authorization hook"
+          },
+          {
+            "index": 2,
+            "text": "request ID"
+          },
+          {
+            "index": 3,
+            "text": "audit logging"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "authorization hook",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#1F262A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "authorization hook",
+              "fontSize": 22,
+              "color": "#1F262A",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "request ID",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#1F262A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "request ID",
+              "fontSize": 22,
+              "color": "#1F262A",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "audit logging",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#1F262A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "audit logging",
+              "fontSize": 22,
+              "color": "#1F262A",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8D7D0",
+      "lineWidth": 1
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cr6x83m1",
+      "id": "7",
+      "bbox": [
+        830,
+        214,
+        300,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Write safety",
+      "textPreview": "Write safety",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Write safety"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Write safety",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Write safety",
+              "fontSize": 24,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#245C5A",
+      "lineColor": "#245C5A",
+      "lineWidth": 1
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bmhgbi50",
+      "id": "8",
+      "bbox": [
+        830,
+        278,
+        300,
+        190
+      ],
+      "geometry": "roundRect",
+      "text": "explicit confirmation\ntransactions\nidempotency records",
+      "textPreview": "explicit confirmation | transactions | idempotency records",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#1F262A",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "explicit confirmation"
+          },
+          {
+            "index": 2,
+            "text": "transactions"
+          },
+          {
+            "index": 3,
+            "text": "idempotency records"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "explicit confirmation",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#1F262A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "explicit confirmation",
+              "fontSize": 22,
+              "color": "#1F262A",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "transactions",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#1F262A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "transactions",
+              "fontSize": 22,
+              "color": "#1F262A",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "idempotency records",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#1F262A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "idempotency records",
+              "fontSize": 22,
+              "color": "#1F262A",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8D7D0",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/al8zid4f",
+      "id": "9",
+      "bbox": [
+        120,
+        540,
+        1040,
+        54
+      ],
+      "geometry": "rect",
+      "text": "The LLM may request a tool. The application decides whether that request is valid, authorized, confirmed, and safe.",
+      "textPreview": "The LLM may request a tool. The application decides whether that request is valid, authorized, confirmed, and safe.",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "color": "#8A4B2B",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The LLM may request a tool. The application decides whether that request is valid, authorized,"
+          },
+          {
+            "index": 2,
+            "text": "confirmed, and safe."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The LLM may request a tool. The application decides whether that request is valid, authorized, confirmed, and safe.",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "color": "#8A4B2B",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The LLM may request a tool. The application decides whether that request is valid, authorized, confirmed, and safe.",
+              "fontSize": 25,
+              "color": "#8A4B2B",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w7m1c32l",
+      "id": "10",
+      "bbox": [
+        72,
+        668,
+        1136,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D8D7D0",
+      "lineColor": "#D8D7D0",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x8v258j6",
+      "id": "11",
+      "bbox": [
+        72,
+        680,
+        420,
+        24
+      ],
+      "geometry": "rect",
+      "text": "DealerAI Ops interview explainer",
+      "textPreview": "DealerAI Ops interview explainer",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#68767A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "DealerAI Ops interview explainer"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "DealerAI Ops interview explainer",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#68767A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "DealerAI Ops interview explainer",
+              "fontSize": 12,
+              "color": "#68767A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/alkjatkf",
+      "id": "12",
+      "bbox": [
+        1160,
+        680,
+        48,
+        24
+      ],
+      "geometry": "rect",
+      "text": "08",
+      "textPreview": "08",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#68767A",
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "08"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "08",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#68767A",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "08",
+              "fontSize": 12,
+              "color": "#68767A",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,882 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/glts0z",
+    "id": "glts0z",
+    "slide": 12,
+    "layoutId": "03fa9d8a-d9a7-4cab-a007-84f5e4116d9c",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "9bf232a6-d6f6-43c0-be6f-e2f222ccacb5",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F7F5EF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "03fa9d8a-d9a7-4cab-a007-84f5e4116d9c",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "9bf232a6-d6f6-43c0-be6f-e2f222ccacb5",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "9bf232a6-d6f6-43c0-be6f-e2f222ccacb5",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/apo7698r",
+      "id": "1",
+      "bbox": [
+        72,
+        42,
+        620,
+        26
+      ],
+      "geometry": "rect",
+      "text": "INTERVIEW CLOSE",
+      "textPreview": "INTERVIEW CLOSE",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#245C5A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "INTERVIEW CLOSE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "INTERVIEW CLOSE",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#245C5A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "INTERVIEW CLOSE",
+              "fontSize": 16,
+              "color": "#245C5A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xsz61o72",
+      "id": "2",
+      "bbox": [
+        72,
+        76,
+        1010,
+        86
+      ],
+      "geometry": "rect",
+      "text": "The strongest claim: disciplined AI system design",
+      "textPreview": "The strongest claim: disciplined AI system design",
+      "resolvedFontSize": 40,
+      "resolvedTextStyle": {
+        "fontSize": 40,
+        "typeface": "+mn-lt",
+        "color": "#1F262A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The strongest claim: disciplined AI system design"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The strongest claim: disciplined AI system design",
+          "resolvedTextStyle": {
+            "fontSize": 40,
+            "color": "#1F262A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The strongest claim: disciplined AI system design",
+              "fontSize": 40,
+              "color": "#1F262A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wrqp8jqh",
+      "id": "3",
+      "bbox": [
+        110,
+        188,
+        520,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Five accomplishments to emphasize",
+      "textPreview": "Five accomplishments to emphasize",
+      "resolvedFontSize": 26,
+      "resolvedTextStyle": {
+        "fontSize": 26,
+        "typeface": "+mn-lt",
+        "color": "#245C5A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Five accomplishments to emphasize"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Five accomplishments to emphasize",
+          "resolvedTextStyle": {
+            "fontSize": 26,
+            "color": "#245C5A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Five accomplishments to emphasize",
+              "fontSize": 26,
+              "color": "#245C5A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nmxovep0",
+      "id": "4",
+      "bbox": [
+        118,
+        253,
+        9,
+        9
+      ],
+      "geometry": "rect",
+      "fillColor": "#245C5A",
+      "lineColor": "#245C5A",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mlo7298f",
+      "id": "5",
+      "bbox": [
+        142,
+        246,
+        555,
+        44
+      ],
+      "geometry": "rect",
+      "text": "typed tool boundary with transaction safety",
+      "textPreview": "typed tool boundary with transaction safety",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#1F262A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "typed tool boundary with transaction safety"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "typed tool boundary with transaction safety",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#1F262A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "typed tool boundary with transaction safety",
+              "fontSize": 20,
+              "color": "#1F262A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9of6x476",
+      "id": "6",
+      "bbox": [
+        118,
+        303,
+        9,
+        9
+      ],
+      "geometry": "rect",
+      "fillColor": "#245C5A",
+      "lineColor": "#245C5A",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8n6p4jql",
+      "id": "7",
+      "bbox": [
+        142,
+        296,
+        555,
+        44
+      ],
+      "geometry": "rect",
+      "text": "leakage-aware predictive ML pipeline",
+      "textPreview": "leakage-aware predictive ML pipeline",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#1F262A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "leakage-aware predictive ML pipeline"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "leakage-aware predictive ML pipeline",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#1F262A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "leakage-aware predictive ML pipeline",
+              "fontSize": 20,
+              "color": "#1F262A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/riho7yp4",
+      "id": "8",
+      "bbox": [
+        118,
+        353,
+        9,
+        9
+      ],
+      "geometry": "rect",
+      "fillColor": "#245C5A",
+      "lineColor": "#245C5A",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6h87et8z",
+      "id": "9",
+      "bbox": [
+        142,
+        346,
+        555,
+        44
+      ],
+      "geometry": "rect",
+      "text": "citation-ready RAG with retrieval evaluation",
+      "textPreview": "citation-ready RAG with retrieval evaluation",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#1F262A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "citation-ready RAG with retrieval evaluation"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "citation-ready RAG with retrieval evaluation",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#1F262A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "citation-ready RAG with retrieval evaluation",
+              "fontSize": 20,
+              "color": "#1F262A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/szal0zu9",
+      "id": "10",
+      "bbox": [
+        118,
+        403,
+        9,
+        9
+      ],
+      "geometry": "rect",
+      "fillColor": "#245C5A",
+      "lineColor": "#245C5A",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t0jmt4bu",
+      "id": "11",
+      "bbox": [
+        142,
+        396,
+        555,
+        44
+      ],
+      "geometry": "rect",
+      "text": "deterministic agent evaluation and release gate",
+      "textPreview": "deterministic agent evaluation and release gate",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#1F262A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "deterministic agent evaluation and release gate"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "deterministic agent evaluation and release gate",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#1F262A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "deterministic agent evaluation and release gate",
+              "fontSize": 20,
+              "color": "#1F262A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6x83y9c3",
+      "id": "12",
+      "bbox": [
+        118,
+        453,
+        9,
+        9
+      ],
+      "geometry": "rect",
+      "fillColor": "#245C5A",
+      "lineColor": "#245C5A",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7y14reto",
+      "id": "13",
+      "bbox": [
+        142,
+        446,
+        555,
+        44
+      ],
+      "geometry": "rect",
+      "text": "clean module boundaries and honest AWS mapping",
+      "textPreview": "clean module boundaries and honest AWS mapping",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#1F262A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "clean module boundaries and honest AWS mapping"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "clean module boundaries and honest AWS mapping",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#1F262A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "clean module boundaries and honest AWS mapping",
+              "fontSize": 20,
+              "color": "#1F262A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kvqlwzux",
+      "id": "14",
+      "bbox": [
+        760,
+        236,
+        330,
+        236
+      ],
+      "geometry": "roundRect",
+      "text": "Position carefully\n\nProduction-oriented reference implementation, not deployed dealership software.",
+      "textPreview": "Position carefully |  | Production-oriented reference implementation, not deployed dealership software.",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "fontSize": 27,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 6,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Position carefully"
+          },
+          {
+            "index": 2,
+            "text": ""
+          },
+          {
+            "index": 3,
+            "text": "Production-oriented"
+          },
+          {
+            "index": 4,
+            "text": "reference implementation,"
+          },
+          {
+            "index": 5,
+            "text": "not deployed dealership"
+          },
+          {
+            "index": 6,
+            "text": "software."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Position carefully",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Position carefully",
+              "fontSize": 27,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "Production-oriented reference implementation, not deployed dealership software.",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Production-oriented reference implementation, not deployed dealership software.",
+              "fontSize": 27,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#245C5A",
+      "lineColor": "#245C5A",
+      "lineWidth": 1
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5wzmp4bi",
+      "id": "15",
+      "bbox": [
+        72,
+        668,
+        1136,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D8D7D0",
+      "lineColor": "#D8D7D0",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i983upc7",
+      "id": "16",
+      "bbox": [
+        72,
+        680,
+        420,
+        24
+      ],
+      "geometry": "rect",
+      "text": "DealerAI Ops interview explainer",
+      "textPreview": "DealerAI Ops interview explainer",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#68767A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "DealerAI Ops interview explainer"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "DealerAI Ops interview explainer",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#68767A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "DealerAI Ops interview explainer",
+              "fontSize": 12,
+              "color": "#68767A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/juh4nuts",
+      "id": "17",
+      "bbox": [
+        1160,
+        680,
+        48,
+        24
+      ],
+      "geometry": "rect",
+      "text": "12",
+      "textPreview": "12",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#68767A",
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "12"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "12",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#68767A",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "12",
+              "fontSize": 12,
+              "color": "#68767A",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

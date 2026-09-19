@@ -1,0 +1,1059 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/mx564p",
+    "id": "mx564p",
+    "slide": 5,
+    "layoutId": "03fa9d8a-d9a7-4cab-a007-84f5e4116d9c",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "9bf232a6-d6f6-43c0-be6f-e2f222ccacb5",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F7F5EF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "03fa9d8a-d9a7-4cab-a007-84f5e4116d9c",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "9bf232a6-d6f6-43c0-be6f-e2f222ccacb5",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "9bf232a6-d6f6-43c0-be6f-e2f222ccacb5",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g7ipsj2l",
+      "id": "1",
+      "bbox": [
+        72,
+        42,
+        620,
+        26
+      ],
+      "geometry": "rect",
+      "text": "DATA FOUNDATION",
+      "textPreview": "DATA FOUNDATION",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#245C5A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "DATA FOUNDATION"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "DATA FOUNDATION",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#245C5A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "DATA FOUNDATION",
+              "fontSize": 16,
+              "color": "#245C5A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/f6p8ze10",
+      "id": "2",
+      "bbox": [
+        72,
+        76,
+        1010,
+        86
+      ],
+      "geometry": "rect",
+      "text": "Synthetic domain data makes the project runnable without PII",
+      "textPreview": "Synthetic domain data makes the project runnable without PII",
+      "resolvedFontSize": 40,
+      "resolvedTextStyle": {
+        "fontSize": 40,
+        "typeface": "+mn-lt",
+        "color": "#1F262A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Synthetic domain data makes the project runnable without"
+          },
+          {
+            "index": 2,
+            "text": "PII"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Synthetic domain data makes the project runnable without PII",
+          "resolvedTextStyle": {
+            "fontSize": 40,
+            "color": "#1F262A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Synthetic domain data makes the project runnable without PII",
+              "fontSize": 40,
+              "color": "#1F262A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e5g7q9kf",
+      "id": "3",
+      "bbox": [
+        100,
+        220,
+        210,
+        74
+      ],
+      "geometry": "rect",
+      "text": "2,000",
+      "textPreview": "2,000",
+      "resolvedFontSize": 44,
+      "resolvedTextStyle": {
+        "fontSize": 44,
+        "typeface": "+mn-lt",
+        "color": "#245C5A",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2,000"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2,000",
+          "resolvedTextStyle": {
+            "fontSize": 44,
+            "color": "#245C5A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2,000",
+              "fontSize": 44,
+              "color": "#245C5A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pwrq58j2",
+      "id": "4",
+      "bbox": [
+        94,
+        290,
+        222,
+        50
+      ],
+      "geometry": "rect",
+      "text": "customers",
+      "textPreview": "customers",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#68767A",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "customers"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "customers",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#68767A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "customers",
+              "fontSize": 17,
+              "color": "#68767A",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ovipw32h",
+      "id": "5",
+      "bbox": [
+        355,
+        220,
+        210,
+        74
+      ],
+      "geometry": "rect",
+      "text": "2,500",
+      "textPreview": "2,500",
+      "resolvedFontSize": 44,
+      "resolvedTextStyle": {
+        "fontSize": 44,
+        "typeface": "+mn-lt",
+        "color": "#245C5A",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2,500"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2,500",
+          "resolvedTextStyle": {
+            "fontSize": 44,
+            "color": "#245C5A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2,500",
+              "fontSize": 44,
+              "color": "#245C5A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3u983y1w",
+      "id": "6",
+      "bbox": [
+        349,
+        290,
+        222,
+        50
+      ],
+      "geometry": "rect",
+      "text": "owned vehicles",
+      "textPreview": "owned vehicles",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#68767A",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "owned vehicles"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "owned vehicles",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#68767A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "owned vehicles",
+              "fontSize": 17,
+              "color": "#68767A",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2907utkb",
+      "id": "7",
+      "bbox": [
+        610,
+        220,
+        210,
+        74
+      ],
+      "geometry": "rect",
+      "text": "300",
+      "textPreview": "300",
+      "resolvedFontSize": 44,
+      "resolvedTextStyle": {
+        "fontSize": 44,
+        "typeface": "+mn-lt",
+        "color": "#245C5A",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "300"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "300",
+          "resolvedTextStyle": {
+            "fontSize": 44,
+            "color": "#245C5A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "300",
+              "fontSize": 44,
+              "color": "#245C5A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d0bq98jy",
+      "id": "8",
+      "bbox": [
+        604,
+        290,
+        222,
+        50
+      ],
+      "geometry": "rect",
+      "text": "inventory vehicles",
+      "textPreview": "inventory vehicles",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#68767A",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "inventory vehicles"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "inventory vehicles",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#68767A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "inventory vehicles",
+              "fontSize": 17,
+              "color": "#68767A",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cz2p032t",
+      "id": "9",
+      "bbox": [
+        865,
+        220,
+        210,
+        74
+      ],
+      "geometry": "rect",
+      "text": "5,000",
+      "textPreview": "5,000",
+      "resolvedFontSize": 44,
+      "resolvedTextStyle": {
+        "fontSize": 44,
+        "typeface": "+mn-lt",
+        "color": "#245C5A",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "5,000"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "5,000",
+          "resolvedTextStyle": {
+            "fontSize": 44,
+            "color": "#245C5A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "5,000",
+              "fontSize": 44,
+              "color": "#245C5A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/alobahsn",
+      "id": "10",
+      "bbox": [
+        859,
+        290,
+        222,
+        50
+      ],
+      "geometry": "rect",
+      "text": "historical appointments",
+      "textPreview": "historical appointments",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#68767A",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "historical appointments"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "historical appointments",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#68767A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "historical appointments",
+              "fontSize": 17,
+              "color": "#68767A",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vmxc3mts",
+      "id": "11",
+      "bbox": [
+        130,
+        452,
+        9,
+        9
+      ],
+      "geometry": "rect",
+      "fillColor": "#245C5A",
+      "lineColor": "#245C5A",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wn6tcrad",
+      "id": "12",
+      "bbox": [
+        154,
+        445,
+        940,
+        44
+      ],
+      "geometry": "rect",
+      "text": "Models relationships across customers, vehicles, appointments, service history, slots, leads, conversations, tool executions, and escalations.",
+      "textPreview": "Models relationships across customers, vehicles, appointments, service history, slots, leads, conversations, tool executions, and escalat...",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#1F262A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Models relationships across customers, vehicles, appointments, service history, slots, leads, conversations,"
+          },
+          {
+            "index": 2,
+            "text": "tool executions, and escalations."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Models relationships across customers, vehicles, appointments, service history, slots, leads, conversations, tool executions, and escalations.",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#1F262A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Models relationships across customers, vehicles, appointments, service history, slots, leads, conversations, tool executions, and escalations.",
+              "fontSize": 21,
+              "color": "#1F262A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xofu5wby",
+      "id": "13",
+      "bbox": [
+        130,
+        512,
+        9,
+        9
+      ],
+      "geometry": "rect",
+      "fillColor": "#245C5A",
+      "lineColor": "#245C5A",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ipobe1sj",
+      "id": "14",
+      "bbox": [
+        154,
+        505,
+        940,
+        44
+      ],
+      "geometry": "rect",
+      "text": "Deterministic generation supports repeatable tests, evaluation reports, and model artifacts.",
+      "textPreview": "Deterministic generation supports repeatable tests, evaluation reports, and model artifacts.",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#1F262A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Deterministic generation supports repeatable tests, evaluation reports, and model artifacts."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Deterministic generation supports repeatable tests, evaluation reports, and model artifacts.",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#1F262A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Deterministic generation supports repeatable tests, evaluation reports, and model artifacts.",
+              "fontSize": 21,
+              "color": "#1F262A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jqxc7mt4",
+      "id": "15",
+      "bbox": [
+        130,
+        572,
+        9,
+        9
+      ],
+      "geometry": "rect",
+      "fillColor": "#245C5A",
+      "lineColor": "#245C5A",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/krqtgrap",
+      "id": "16",
+      "bbox": [
+        154,
+        565,
+        940,
+        44
+      ],
+      "geometry": "rect",
+      "text": "Feature design avoids real PII and protected-class fields.",
+      "textPreview": "Feature design avoids real PII and protected-class fields.",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#1F262A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Feature design avoids real PII and protected-class fields."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Feature design avoids real PII and protected-class fields.",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#1F262A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Feature design avoids real PII and protected-class fields.",
+              "fontSize": 21,
+              "color": "#1F262A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5szu9wba",
+      "id": "17",
+      "bbox": [
+        72,
+        668,
+        1136,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D8D7D0",
+      "lineColor": "#D8D7D0",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/et4b2xsf",
+      "id": "18",
+      "bbox": [
+        72,
+        680,
+        420,
+        24
+      ],
+      "geometry": "rect",
+      "text": "DealerAI Ops interview explainer",
+      "textPreview": "DealerAI Ops interview explainer",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#68767A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "DealerAI Ops interview explainer"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "DealerAI Ops interview explainer",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#68767A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "DealerAI Ops interview explainer",
+              "fontSize": 12,
+              "color": "#68767A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zudsv2t0",
+      "id": "19",
+      "bbox": [
+        1160,
+        680,
+        48,
+        24
+      ],
+      "geometry": "rect",
+      "text": "05",
+      "textPreview": "05",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#68767A",
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "05"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "05",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#68767A",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "05",
+              "fontSize": 12,
+              "color": "#68767A",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

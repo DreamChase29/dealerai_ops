@@ -1,0 +1,978 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/0x7rlh",
+    "id": "0x7rlh",
+    "slide": 10,
+    "layoutId": "03fa9d8a-d9a7-4cab-a007-84f5e4116d9c",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "9bf232a6-d6f6-43c0-be6f-e2f222ccacb5",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F7F5EF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "03fa9d8a-d9a7-4cab-a007-84f5e4116d9c",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "9bf232a6-d6f6-43c0-be6f-e2f222ccacb5",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "9bf232a6-d6f6-43c0-be6f-e2f222ccacb5",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lk361cja",
+      "id": "1",
+      "bbox": [
+        72,
+        42,
+        620,
+        26
+      ],
+      "geometry": "rect",
+      "text": "AI EVALUATION",
+      "textPreview": "AI EVALUATION",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#245C5A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "AI EVALUATION"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "AI EVALUATION",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#245C5A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "AI EVALUATION",
+              "fontSize": 16,
+              "color": "#245C5A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yhs76xkj",
+      "id": "2",
+      "bbox": [
+        72,
+        76,
+        1010,
+        86
+      ],
+      "geometry": "rect",
+      "text": "Evaluation turns agent behavior into release criteria",
+      "textPreview": "Evaluation turns agent behavior into release criteria",
+      "resolvedFontSize": 40,
+      "resolvedTextStyle": {
+        "fontSize": 40,
+        "typeface": "+mn-lt",
+        "color": "#1F262A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Evaluation turns agent behavior into release criteria"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Evaluation turns agent behavior into release criteria",
+          "resolvedTextStyle": {
+            "fontSize": 40,
+            "color": "#1F262A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Evaluation turns agent behavior into release criteria",
+              "fontSize": 40,
+              "color": "#1F262A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ji1oz214",
+      "id": "3",
+      "bbox": [
+        110,
+        218,
+        210,
+        74
+      ],
+      "geometry": "rect",
+      "text": "121",
+      "textPreview": "121",
+      "resolvedFontSize": 44,
+      "resolvedTextStyle": {
+        "fontSize": 44,
+        "typeface": "+mn-lt",
+        "color": "#245C5A",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "121"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "121",
+          "resolvedTextStyle": {
+            "fontSize": 44,
+            "color": "#245C5A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "121",
+              "fontSize": 44,
+              "color": "#245C5A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wfap472d",
+      "id": "4",
+      "bbox": [
+        104,
+        288,
+        222,
+        50
+      ],
+      "geometry": "rect",
+      "text": "deterministic scenarios",
+      "textPreview": "deterministic scenarios",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#68767A",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "deterministic scenarios"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "deterministic scenarios",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#68767A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "deterministic scenarios",
+              "fontSize": 17,
+              "color": "#68767A",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xgj6xcjy",
+      "id": "5",
+      "bbox": [
+        390,
+        218,
+        210,
+        74
+      ],
+      "geometry": "rect",
+      "text": "111",
+      "textPreview": "111",
+      "resolvedFontSize": 44,
+      "resolvedTextStyle": {
+        "fontSize": 44,
+        "typeface": "+mn-lt",
+        "color": "#4E7E54",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "111"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "111",
+          "resolvedTextStyle": {
+            "fontSize": 44,
+            "color": "#4E7E54",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "111",
+              "fontSize": 44,
+              "color": "#4E7E54",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ads72xkn",
+      "id": "6",
+      "bbox": [
+        384,
+        288,
+        222,
+        50
+      ],
+      "geometry": "rect",
+      "text": "pytest tests passed in audit",
+      "textPreview": "pytest tests passed in audit",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#68767A",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "pytest tests passed in audit"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "pytest tests passed in audit",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#68767A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "pytest tests passed in audit",
+              "fontSize": 17,
+              "color": "#68767A",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/be1ov21s",
+      "id": "7",
+      "bbox": [
+        670,
+        218,
+        210,
+        74
+      ],
+      "geometry": "rect",
+      "text": "0.0",
+      "textPreview": "0.0",
+      "resolvedFontSize": 44,
+      "resolvedTextStyle": {
+        "fontSize": 44,
+        "typeface": "+mn-lt",
+        "color": "#8A4B2B",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "0.0"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "0.0",
+          "resolvedTextStyle": {
+            "fontSize": 44,
+            "color": "#8A4B2B",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "0.0",
+              "fontSize": 44,
+              "color": "#8A4B2B",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gbepgrix",
+      "id": "8",
+      "bbox": [
+        664,
+        288,
+        222,
+        50
+      ],
+      "geometry": "rect",
+      "text": "hallucinated transaction rate",
+      "textPreview": "hallucinated transaction rate",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#68767A",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "hallucinated transaction rate"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "hallucinated transaction rate",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#68767A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "hallucinated transaction rate",
+              "fontSize": 17,
+              "color": "#68767A",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hcnq9wj2",
+      "id": "9",
+      "bbox": [
+        950,
+        218,
+        210,
+        74
+      ],
+      "geometry": "rect",
+      "text": "1.00",
+      "textPreview": "1.00",
+      "resolvedFontSize": 44,
+      "resolvedTextStyle": {
+        "fontSize": 44,
+        "typeface": "+mn-lt",
+        "color": "#B88746",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1.00"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1.00",
+          "resolvedTextStyle": {
+            "fontSize": 44,
+            "color": "#B88746",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "1.00",
+              "fontSize": 44,
+              "color": "#B88746",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p8ra9c7y",
+      "id": "10",
+      "bbox": [
+        944,
+        288,
+        222,
+        50
+      ],
+      "geometry": "rect",
+      "text": "gate-critical pass rates",
+      "textPreview": "gate-critical pass rates",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#68767A",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "gate-critical pass rates"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "gate-critical pass rates",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#68767A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "gate-critical pass rates",
+              "fontSize": 17,
+              "color": "#68767A",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/o7y9g7qd",
+      "id": "11",
+      "bbox": [
+        120,
+        462,
+        9,
+        9
+      ],
+      "geometry": "rect",
+      "fillColor": "#245C5A",
+      "lineColor": "#245C5A",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n6ps72ps",
+      "id": "12",
+      "bbox": [
+        144,
+        455,
+        980,
+        44
+      ],
+      "geometry": "rect",
+      "text": "Scorers cover tool selection, argument accuracy, retrieval hits, citations, PII leakage, escalation, policy violations, and transaction consistency.",
+      "textPreview": "Scorers cover tool selection, argument accuracy, retrieval hits, citations, PII leakage, escalation, policy violations, and transaction c...",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#1F262A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Scorers cover tool selection, argument accuracy, retrieval hits, citations, PII leakage, escalation, policy violations,"
+          },
+          {
+            "index": 2,
+            "text": "and transaction consistency."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Scorers cover tool selection, argument accuracy, retrieval hits, citations, PII leakage, escalation, policy violations, and transaction consistency.",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#1F262A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Scorers cover tool selection, argument accuracy, retrieval hits, citations, PII leakage, escalation, policy violations, and transaction consistency.",
+              "fontSize": 21,
+              "color": "#1F262A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/25grex8n",
+      "id": "13",
+      "bbox": [
+        120,
+        530,
+        9,
+        9
+      ],
+      "geometry": "rect",
+      "fillColor": "#245C5A",
+      "lineColor": "#245C5A",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/147a5s72",
+      "id": "14",
+      "bbox": [
+        144,
+        523,
+        980,
+        44
+      ],
+      "geometry": "rect",
+      "text": "Quality thresholds are stored in version-controlled configuration and enforced by python -m evaluation.gate.",
+      "textPreview": "Quality thresholds are stored in version-controlled configuration and enforced by python -m evaluation.gate.",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#1F262A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Quality thresholds are stored in version-controlled configuration and enforced by python -m evaluation.gate."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Quality thresholds are stored in version-controlled configuration and enforced by python -m evaluation.gate.",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#1F262A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Quality thresholds are stored in version-controlled configuration and enforced by python -m evaluation.gate.",
+              "fontSize": 21,
+              "color": "#1F262A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g3y9cnqh",
+      "id": "15",
+      "bbox": [
+        72,
+        668,
+        1136,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D8D7D0",
+      "lineColor": "#D8D7D0",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/f2ps32pw",
+      "id": "16",
+      "bbox": [
+        72,
+        680,
+        420,
+        24
+      ],
+      "geometry": "rect",
+      "text": "DealerAI Ops interview explainer",
+      "textPreview": "DealerAI Ops interview explainer",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#68767A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "DealerAI Ops interview explainer"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "DealerAI Ops interview explainer",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#68767A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "DealerAI Ops interview explainer",
+              "fontSize": 12,
+              "color": "#68767A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ehgrax8b",
+      "id": "17",
+      "bbox": [
+        1160,
+        680,
+        48,
+        24
+      ],
+      "geometry": "rect",
+      "text": "10",
+      "textPreview": "10",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#68767A",
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "10"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "10",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#68767A",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "10",
+              "fontSize": 12,
+              "color": "#68767A",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

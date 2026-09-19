@@ -1,0 +1,46 @@
+{
+  "categorical_features": [
+    "appointment_type",
+    "channel",
+    "is_first_service_visit",
+    "customer_loyalty_tier",
+    "customer_acquisition_channel",
+    "preferred_contact_method",
+    "marketing_opt_in"
+  ],
+  "leakage_blocklist": [
+    "appointment_id",
+    "canceled_at",
+    "completed_at",
+    "confirmed_at",
+    "current_mileage",
+    "customer_id",
+    "email_hash",
+    "last_activity_at",
+    "phone_last4",
+    "prior_no_show_count",
+    "service_codes",
+    "service_date",
+    "status",
+    "synthetic_name",
+    "target_no_show",
+    "technician_id",
+    "total_amount",
+    "total_completed_appointments",
+    "vehicle_id"
+  ],
+  "numeric_features": [
+    "lead_time_days",
+    "estimated_duration_minutes",
+    "prior_no_show_count_at_booking",
+    "prior_completed_appointments_at_booking",
+    "reminder_count",
+    "scheduled_day_of_week",
+    "scheduled_hour",
+    "days_since_customer_created_at_booking",
+    "vehicle_age_years_at_booking",
+    "customer_distance_miles"
+  ],
+  "target_column": "target_no_show",
+  "version": "no-show-feature-schema-v1"
+}

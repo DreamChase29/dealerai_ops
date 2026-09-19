@@ -1,0 +1,50 @@
+[
+  {
+    "title": "DealerAI Ops",
+    "notes": "Open with the positioning: this is not a toy chatbot. DealerAI Ops is a production-oriented portfolio implementation for a synthetic automotive dealership. The project demonstrates how I think about applied AI systems: typed tools, domain boundaries, predictive ML, retrieval, evaluation, guardrails, observability, and an AWS deployment path. I would be careful to say it is a local reference implementation, not deployed production infrastructure."
+  },
+  {
+    "title": "The project proves agentic AI can be engineered, tested, and bounded",
+    "notes": "The main thesis is that agentic AI should be treated as engineered software. The LLM is useful for language and tool selection, but it should not own business logic or database writes. This project shows how to wrap LLM behavior with schemas, services, transactions, confirmation gates, evaluation, and monitoring so the system is reviewable and testable."
+  },
+  {
+    "title": "The dealership problem is operational, not conversational",
+    "notes": "A dealership assistant touches customer context, service scheduling, inventory, policies, sales leads, and escalation. Those workflows have real risk: exposing contact data, canceling appointments without consent, citing unsupported policies, or fabricating a successful booking. The architecture is built around those risks rather than around a generic chat interface."
+  },
+  {
+    "title": "Architecture separates reasoning, tools, data, evaluation",
+    "notes": "Walk left to right. The user enters through FastAPI or the Streamlit demo. The agent orchestrator applies guardrails, optionally retrieves knowledge, calls a provider-independent LLM, validates any tool request, and executes only through typed tools. Tools call services and repositories, not the database directly. ML inference and escalation are separate services. Evaluation and observability wrap the whole flow."
+  },
+  {
+    "title": "Synthetic domain data makes the project runnable without PII",
+    "notes": "The project includes deterministic synthetic dealership data: customers, vehicles, inventory, appointments, service history, slots, leads, conversations, tool executions, and escalations. The scale is large enough to support meaningful tests and ML workflows, but it avoids real PII and protected-class fields. Determinism matters because tests, model artifacts, and evaluation reports need to be reproducible."
+  },
+  {
+    "title": "No-show prediction is built as an ML pipeline, not a score stub",
+    "notes": "The ML component predicts appointment no-show probability using a reproducible sklearn pipeline. It compares a logistic regression baseline with a calibrated tree-based candidate, uses preprocessing pipelines so training and inference transformations stay aligned, and reports ROC-AUC, PR-AUC, precision, recall, F1, Brier score, confusion matrix, calibration diagnostics, and threshold analysis. The important interview point is leakage control: outcome fields, post-event timestamps, identifiers, and unavailable-at-booking features are excluded."
+  },
+  {
+    "title": "RAG is citation-first and testable",
+    "notes": "The RAG subsystem uses a fictional dealership knowledge corpus. Documents are loaded, normalized, chunked by section, embedded locally in deterministic mode, and retrieved with source metadata. Retrieved chunks include document ID, title, section, chunk ID, score, and source metadata. The repository also includes retrieval evaluation data with known relevant documents and metrics like Recall@K, MRR, and hit rate. The production vector backends are documented adapter targets, not live integrations."
+  },
+  {
+    "title": "Tool calling is the safety boundary",
+    "notes": "This is the strongest architecture decision. Every tool has Pydantic input and output schemas, metadata, risk level, confirmation requirement, authorization hook, request ID, audit logging, and structured error handling. Transactional tools such as booking, rescheduling, canceling, and lead creation require confirmation. Booking-style operations include idempotency so duplicate requests do not create duplicate appointments."
+  },
+  {
+    "title": "The agent loop is constrained by policy and state",
+    "notes": "The provider can return a final answer or a structured tool request. The orchestrator enforces max iterations, timeouts, unknown-tool handling, schema validation, confirmation workflow, and fail-closed behavior for sensitive operations. Guardrails inspect user input and retrieved content. Retrieved documents can provide evidence, but they cannot instruct the agent to bypass policy or dump data."
+  },
+  {
+    "title": "Evaluation turns agent behavior into release criteria",
+    "notes": "The evaluation lab has 121 deterministic scenarios across normal, multi-turn, RAG, transaction, tool failure, escalation, PII, prompt injection, and regression cases. Scorers check task success, tool selection, argument accuracy, transaction consistency, retrieval hit, citations, PII leakage, escalation behavior, policy violations, and hallucinated transactions. The release gate enforces thresholds in version-controlled configuration."
+  },
+  {
+    "title": "Observability, reliability, and AWS mapping are explicit",
+    "notes": "Observability captures redacted spans for conversation, LLM calls, retrieval, tool calls, ML inference, guardrail decisions, and escalation with correlation IDs and latency. Reliability tests cover provider failure, retrieval failure, database failure, duplicate booking, malformed tool calls, prompt injection, PII requests, iteration limits, and corrupt ML artifacts. AWS architecture is documented for Bedrock, S3, Lambda, API Gateway, Aurora, pgvector, CloudWatch, IAM, and Secrets Manager, but it is not deployed."
+  },
+  {
+    "title": "The strongest claim: disciplined AI system design",
+    "notes": "Close with the honest pitch. The strongest accomplishments are the typed tool boundary, leakage-aware ML pipeline, deterministic RAG evaluation, agent evaluation gate, and clean separation of concerns. The honest limitations are that data is synthetic, live AWS infrastructure is not deployed, production auth and tenant isolation are not implemented, and cloud vector integrations are documented rather than active. That honesty makes the project more credible, not less."
+  }
+]

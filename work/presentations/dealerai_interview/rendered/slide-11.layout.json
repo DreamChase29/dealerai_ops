@@ -1,0 +1,721 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/nskyqb",
+    "id": "nskyqb",
+    "slide": 11,
+    "layoutId": "03fa9d8a-d9a7-4cab-a007-84f5e4116d9c",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "9bf232a6-d6f6-43c0-be6f-e2f222ccacb5",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F7F5EF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "03fa9d8a-d9a7-4cab-a007-84f5e4116d9c",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "9bf232a6-d6f6-43c0-be6f-e2f222ccacb5",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "9bf232a6-d6f6-43c0-be6f-e2f222ccacb5",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mp4n2187",
+      "id": "1",
+      "bbox": [
+        72,
+        42,
+        620,
+        26
+      ],
+      "geometry": "rect",
+      "text": "OPERATIONS",
+      "textPreview": "OPERATIONS",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#245C5A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "OPERATIONS"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "OPERATIONS",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#245C5A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "OPERATIONS",
+              "fontSize": 16,
+              "color": "#245C5A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9svmxg7i",
+      "id": "2",
+      "bbox": [
+        72,
+        76,
+        1010,
+        86
+      ],
+      "geometry": "rect",
+      "text": "Observability, reliability, and AWS mapping are explicit",
+      "textPreview": "Observability, reliability, and AWS mapping are explicit",
+      "resolvedFontSize": 40,
+      "resolvedTextStyle": {
+        "fontSize": 40,
+        "typeface": "+mn-lt",
+        "color": "#1F262A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Observability, reliability, and AWS mapping are explicit"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Observability, reliability, and AWS mapping are explicit",
+          "resolvedTextStyle": {
+            "fontSize": 40,
+            "color": "#1F262A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Observability, reliability, and AWS mapping are explicit",
+              "fontSize": 40,
+              "color": "#1F262A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/orm54bqx",
+      "id": "3",
+      "bbox": [
+        110,
+        205,
+        300,
+        72
+      ],
+      "geometry": "rect",
+      "text": "Implemented locally",
+      "textPreview": "Implemented locally",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Implemented locally"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Implemented locally",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Implemented locally",
+              "fontSize": 23,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#245C5A",
+      "lineColor": "#245C5A",
+      "lineWidth": 1
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z2t4769g",
+      "id": "4",
+      "bbox": [
+        410,
+        205,
+        740,
+        72
+      ],
+      "geometry": "rect",
+      "text": "Redacted spans, correlation IDs, component latency, MLflow-local option, reliability tests, Docker/Compose, CI checks.",
+      "textPreview": "Redacted spans, correlation IDs, component latency, MLflow-local option, reliability tests, Docker/Compose, CI checks.",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#1F262A",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Redacted spans, correlation IDs, component latency, MLflow-local option, reliability"
+          },
+          {
+            "index": 2,
+            "text": "tests, Docker/Compose, CI checks."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Redacted spans, correlation IDs, component latency, MLflow-local option, reliability tests, Docker/Compose, CI checks.",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#1F262A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Redacted spans, correlation IDs, component latency, MLflow-local option, reliability tests, Docker/Compose, CI checks.",
+              "fontSize": 20,
+              "color": "#1F262A",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8D7D0",
+      "lineWidth": 1
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e1kny18v",
+      "id": "5",
+      "bbox": [
+        110,
+        327,
+        300,
+        72
+      ],
+      "geometry": "rect",
+      "text": "Documented AWS path",
+      "textPreview": "Documented AWS path",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Documented AWS path"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Documented AWS path",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Documented AWS path",
+              "fontSize": 23,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#245C5A",
+      "lineColor": "#245C5A",
+      "lineWidth": 1
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/14vm9grm",
+      "id": "6",
+      "bbox": [
+        410,
+        327,
+        740,
+        72
+      ],
+      "geometry": "rect",
+      "text": "Bedrock, S3, Lambda, API Gateway, Aurora PostgreSQL, pgvector, CloudWatch, IAM, Secrets Manager.",
+      "textPreview": "Bedrock, S3, Lambda, API Gateway, Aurora PostgreSQL, pgvector, CloudWatch, IAM, Secrets Manager.",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#1F262A",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Bedrock, S3, Lambda, API Gateway, Aurora PostgreSQL, pgvector, CloudWatch, IAM,"
+          },
+          {
+            "index": 2,
+            "text": "Secrets Manager."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Bedrock, S3, Lambda, API Gateway, Aurora PostgreSQL, pgvector, CloudWatch, IAM, Secrets Manager.",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#1F262A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Bedrock, S3, Lambda, API Gateway, Aurora PostgreSQL, pgvector, CloudWatch, IAM, Secrets Manager.",
+              "fontSize": 20,
+              "color": "#1F262A",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8D7D0",
+      "lineWidth": 1
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/03m50bq1",
+      "id": "7",
+      "bbox": [
+        110,
+        449,
+        300,
+        72
+      ],
+      "geometry": "rect",
+      "text": "Not claimed",
+      "textPreview": "Not claimed",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Not claimed"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Not claimed",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Not claimed",
+              "fontSize": 23,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#8A4B2B",
+      "lineColor": "#8A4B2B",
+      "lineWidth": 1
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ryt43m94",
+      "id": "8",
+      "bbox": [
+        410,
+        449,
+        740,
+        72
+      ],
+      "geometry": "rect",
+      "text": "No live AWS deployment, no real dealership integrations, no real customer data, no production auth/tenant isolation.",
+      "textPreview": "No live AWS deployment, no real dealership integrations, no real customer data, no production auth/tenant isolation.",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#1F262A",
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "No live AWS deployment, no real dealership integrations, no real customer data, no"
+          },
+          {
+            "index": 2,
+            "text": "production auth/tenant isolation."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "No live AWS deployment, no real dealership integrations, no real customer data, no production auth/tenant isolation.",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#1F262A",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "No live AWS deployment, no real dealership integrations, no real customer data, no production auth/tenant isolation.",
+              "fontSize": 20,
+              "color": "#1F262A",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8D7D0",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qxknuh8z",
+      "id": "9",
+      "bbox": [
+        72,
+        668,
+        1136,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D8D7D0",
+      "lineColor": "#D8D7D0",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wve9kzqt",
+      "id": "10",
+      "bbox": [
+        72,
+        680,
+        420,
+        24
+      ],
+      "geometry": "rect",
+      "text": "DealerAI Ops interview explainer",
+      "textPreview": "DealerAI Ops interview explainer",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#68767A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "DealerAI Ops interview explainer"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "DealerAI Ops interview explainer",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#68767A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "DealerAI Ops interview explainer",
+              "fontSize": 12,
+              "color": "#68767A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xgnqt47e",
+      "id": "11",
+      "bbox": [
+        1160,
+        680,
+        48,
+        24
+      ],
+      "geometry": "rect",
+      "text": "11",
+      "textPreview": "11",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#68767A",
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "11"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "11",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#68767A",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "11",
+              "fontSize": 12,
+              "color": "#68767A",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

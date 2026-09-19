@@ -1,0 +1,118 @@
+{"kind":"deck","id":"pr/mex258","name":"Deck"}
+{"kind":"layout","layoutId":"7043fd65-12d0-4219-96c1-e84980fb2b15","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"483c63b2-2719-47d7-8843-83ef0410e3aa","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/iwlggw","slide":1,"title":"DealerAI Ops","textShapes":7}
+{"kind":"textbox","id":"sh/jat8fud4","slide":1,"text":"DealerAI Ops","textPreview":"DealerAI Ops","textChars":12,"textLines":1,"bbox":[78,122,760,86]}
+{"kind":"shape","id":"sh/4b2pozep","slide":1,"bbox":[82,218,210,4]}
+{"kind":"textbox","id":"sh/5cbqh4va","slide":1,"text":"Production-oriented agentic AI and predictive intelligence for automotive dealerships","textPreview":"Production-oriented agentic AI and predictive intelligence for automotive dealerships","textChars":85,"textLines":1,"bbox":[82,258,820,86]}
+{"kind":"textbox","id":"sh/al07ipwn","slide":1,"text":"Interview explainer | implemented capabilities, architecture decisions, and honest limitations","textPreview":"Interview explainer | implemented capabilities, architecture decisions, and honest limitations","textChars":94,"textLines":1,"bbox":[82,376,760,70]}
+{"kind":"textbox","id":"sh/v698bud8","slide":1,"text":"Local-first reference implementation\nNo real PII | No paid API required | AWS mapping documented","textPreview":"Local-first reference implementation | No real PII | No paid API required | AWS mapping documented","textChars":96,"textLines":2,"bbox":[820,122,324,260]}
+{"kind":"textbox","id":"sh/w7ipkzet","slide":1,"text":"Built for senior AI/ML engineering discussion","textPreview":"Built for senior AI/ML engineering discussion","textChars":45,"textLines":1,"bbox":[82,592,580,32]}
+{"kind":"shape","id":"sh/x8bqd4ve","slide":1,"bbox":[72,668,1136,1]}
+{"kind":"textbox","id":"sh/mh07e5wr","slide":1,"text":"DealerAI Ops interview explainer","textPreview":"DealerAI Ops interview explainer","textChars":32,"textLines":1,"bbox":[72,680,420,24]}
+{"kind":"textbox","id":"sh/ni9o7adw","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1160,680,48,24]}
+{"kind":"notes","id":"nt/iwlggw","slide":1,"text":""}
+{"kind":"slide","id":"sl/jr2xrq","slide":2,"title":"THESIS","textShapes":9}
+{"kind":"textbox","id":"sh/ryl07m94","slide":2,"text":"THESIS","textPreview":"THESIS","textChars":6,"textLines":1,"bbox":[72,42,620,26]}
+{"kind":"textbox","id":"sh/szu1grap","slide":2,"text":"The project proves agentic AI can be engineered, tested, and bounded","textPreview":"The project proves agentic AI can be engineered, tested, and bounded","textChars":68,"textLines":1,"bbox":[72,76,1010,86]}
+{"kind":"shape","id":"sh/t03i9cra","slide":2,"bbox":[94,217,9,9]}
+{"kind":"textbox","id":"sh/e1wjihsf","slide":2,"text":"LLM reasoning is separated from domain logic and persistence.","textPreview":"LLM reasoning is separated from domain logic and persistence.","textChars":61,"textLines":1,"bbox":[118,210,850,44]}
+{"kind":"shape","id":"sh/f250bm90","slide":2,"bbox":[94,293,9,9]}
+{"kind":"textbox","id":"sh/gne1kral","slide":2,"text":"All external actions happen through typed Pydantic tools.","textPreview":"All external actions happen through typed Pydantic tools.","textChars":57,"textLines":1,"bbox":[118,286,850,44]}
+{"kind":"shape","id":"sh/1on2dwr6","slide":2,"bbox":[94,369,9,9]}
+{"kind":"textbox","id":"sh/2pwjm1sr","slide":2,"text":"Predictive ML and RAG are implemented as independent services.","textPreview":"Predictive ML and RAG are implemented as independent services.","textChars":62,"textLines":1,"bbox":[118,362,850,44]}
+{"kind":"shape","id":"sh/3q5kf69c","slide":2,"bbox":[94,445,9,9]}
+{"kind":"textbox","id":"sh/7ap0fmhw","slide":2,"text":"Guardrails, escalation, evaluation, and observability are first-class.","textPreview":"Guardrails, escalation, evaluation, and observability are first-class.","textChars":70,"textLines":1,"bbox":[118,438,850,44]}
+{"kind":"textbox","id":"sh/69gzmhgb","slide":2,"text":"Core claim\n\nThe system is designed around transaction safety and measurable behavior, not chatbot novelty.","textPreview":"Core claim |  | The system is designed around transaction safety and measurable behavior, not chatbot novelty.","textChars":106,"textLines":3,"bbox":[860,220,300,260]}
+{"kind":"shape","id":"sh/tcrihwz2","slide":2,"bbox":[72,668,1136,1]}
+{"kind":"textbox","id":"sh/sbyhoryh","slide":2,"text":"DealerAI Ops interview explainer","textPreview":"DealerAI Ops interview explainer","textChars":32,"textLines":1,"bbox":[72,680,420,24]}
+{"kind":"textbox","id":"sh/jmpgbmh0","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1160,680,48,24]}
+{"kind":"notes","id":"nt/jr2xrq","slide":2,"text":""}
+{"kind":"slide","id":"sl/pnzaw7","slide":3,"title":"BUSINESS PROBLEM","textShapes":12}
+{"kind":"textbox","id":"sh/lkzepobq","slide":3,"text":"BUSINESS PROBLEM","textPreview":"BUSINESS PROBLEM","textChars":16,"textLines":1,"bbox":[72,42,620,26]}
+{"kind":"textbox","id":"sh/yx8ve9cf","slide":3,"text":"The dealership problem is operational, not conversational","textPreview":"The dealership problem is operational, not conversational","textChars":57,"textLines":1,"bbox":[72,76,1010,86]}
+{"kind":"textbox","id":"sh/jihwnet0","slide":3,"text":"Unsafe write","textPreview":"Unsafe write","textChars":12,"textLines":1,"bbox":[90,205,460,52]}
+{"kind":"textbox","id":"sh/wvqdcju9","slide":3,"text":"Book, cancel, or reschedule without explicit confirmation","textPreview":"Book, cancel, or reschedule without explicit confirmation","textChars":57,"textLines":1,"bbox":[90,257,460,92]}
+{"kind":"textbox","id":"sh/xwzelobu","slide":3,"text":"PII exposure","textPreview":"PII exposure","textChars":12,"textLines":1,"bbox":[675,205,460,52]}
+{"kind":"textbox","id":"sh/atova9c3","slide":3,"text":"Reveal customer contact data or internal configuration","textPreview":"Reveal customer contact data or internal configuration","textChars":54,"textLines":1,"bbox":[675,257,460,92]}
+{"kind":"textbox","id":"sh/buxwjeto","slide":3,"text":"Ungrounded policy","textPreview":"Ungrounded policy","textChars":17,"textLines":1,"bbox":[90,390,460,52]}
+{"kind":"textbox","id":"sh/or6d8zud","slide":3,"text":"Answer warranty or scheduling questions without sources","textPreview":"Answer warranty or scheduling questions without sources","textChars":55,"textLines":1,"bbox":[90,442,460,92]}
+{"kind":"textbox","id":"sh/9sfeh4by","slide":3,"text":"False success","textPreview":"False success","textChars":13,"textLines":1,"bbox":[675,390,460,52]}
+{"kind":"textbox","id":"sh/xwn2ts3q","slide":3,"text":"Claim a transaction succeeded when the tool failed","textPreview":"Claim a transaction succeeded when the tool failed","textChars":50,"textLines":1,"bbox":[675,442,460,92]}
+{"kind":"shape","id":"sh/cvelkn25","slide":3,"bbox":[72,668,1136,1]}
+{"kind":"textbox","id":"sh/ba5krilk","slide":3,"text":"DealerAI Ops interview explainer","textPreview":"DealerAI Ops interview explainer","textChars":32,"textLines":1,"bbox":[72,680,420,24]}
+{"kind":"textbox","id":"sh/a9w3idkz","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1160,680,48,24]}
+{"kind":"notes","id":"nt/pnzaw7","slide":3,"text":""}
+{"kind":"slide","id":"sl/z3l0aq","slide":4,"title":"SYSTEM DESIGN","textShapes":16}
+{"kind":"textbox","id":"sh/po7mhg3i","slide":4,"text":"SYSTEM DESIGN","textPreview":"SYSTEM DESIGN","textChars":13,"textLines":1,"bbox":[72,42,620,26]}
+{"kind":"textbox","id":"sh/2lgnmlkr","slide":4,"text":"Architecture keeps reasoning, tools, data, and evaluation separate","textPreview":"Architecture keeps reasoning, tools, data, and evaluation separate","textChars":66,"textLines":1,"bbox":[72,76,1010,86]}
+{"kind":"textbox","id":"sh/3mp4fqlc","slide":4,"text":"FastAPI / Streamlit","textPreview":"FastAPI / Streamlit","textChars":19,"textLines":1,"bbox":[82,238,160,92]}
+{"kind":"textbox","id":"sh/cbi5sv2t","slide":4,"text":"Agent orchestrator","textPreview":"Agent orchestrator","textChars":18,"textLines":1,"bbox":[328,238,160,92]}
+{"kind":"textbox","id":"sh/dcrml03e","slide":4,"text":"Guardrails + RAG","textPreview":"Guardrails + RAG","textChars":16,"textLines":1,"bbox":[574,148,160,92]}
+{"kind":"textbox","id":"sh/q9gnqlk3","slide":4,"text":"Provider interface","textPreview":"Provider interface","textChars":18,"textLines":1,"bbox":[574,328,160,92]}
+{"kind":"textbox","id":"sh/rap4jql8","slide":4,"text":"Typed tools","textPreview":"Typed tools","textChars":11,"textLines":1,"bbox":[820,238,160,92]}
+{"kind":"textbox","id":"sh/8felgrmp","slide":4,"text":"Services + repos","textPreview":"Services + repos","textChars":16,"textLines":1,"bbox":[1016,238,160,92]}
+{"kind":"textbox","id":"sh/tgnm9w3a","slide":4,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[268,260,32,32]}
+{"kind":"textbox","id":"sh/5w76p836","slide":4,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[760,260,32,32]}
+{"kind":"textbox","id":"sh/4vepgn2l","slide":4,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[980,260,32,32]}
+{"kind":"textbox","id":"sh/ju5onil0","slide":4,"text":"retrieval","textPreview":"retrieval","textChars":9,"textLines":1,"bbox":[568,250,172,26]}
+{"kind":"textbox","id":"sh/itw7edkf","slide":4,"text":"model","textPreview":"model","textChars":5,"textLines":1,"bbox":[590,342,132,26]}
+{"kind":"textbox","id":"sh/tk76ts32","slide":4,"text":"ML inference, human escalation, observability, and evaluation wrap the operational path.","textPreview":"ML inference, human escalation, observability, and evaluation wrap the operational path.","textChars":88,"textLines":1,"bbox":[155,508,960,60]}
+{"kind":"shape","id":"sh/sjypkn2h","slide":4,"bbox":[72,668,1136,1]}
+{"kind":"textbox","id":"sh/riporilc","slide":4,"text":"DealerAI Ops interview explainer","textPreview":"DealerAI Ops interview explainer","textChars":32,"textLines":1,"bbox":[72,680,420,24]}
+{"kind":"textbox","id":"sh/6hg7idkr","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1160,680,48,24]}
+{"kind":"notes","id":"nt/z3l0aq","slide":4,"text":""}
+{"kind":"slide","id":"sl/ci968f","slide":5,"title":"DATA FOUNDATION","textShapes":15}
+{"kind":"textbox","id":"sh/l4ry1ovu","slide":5,"text":"DATA FOUNDATION","textPreview":"DATA FOUNDATION","textChars":15,"textLines":1,"bbox":[72,42,620,26]}
+{"kind":"textbox","id":"sh/y1gz69w3","slide":5,"text":"Synthetic domain data makes the project runnable without PII","textPreview":"Synthetic domain data makes the project runnable without PII","textChars":60,"textLines":1,"bbox":[72,76,1010,86]}
+{"kind":"textbox","id":"sh/z2pgzedo","slide":5,"text":"2,000","textPreview":"2,000","textChars":5,"textLines":1,"bbox":[100,220,210,74]}
+{"kind":"textbox","id":"sh/czyh4jex","slide":5,"text":"customers","textPreview":"customers","textChars":9,"textLines":1,"bbox":[94,290,222,50]}
+{"kind":"textbox","id":"sh/d07yx4vi","slide":5,"text":"2,500","textPreview":"2,500","textChars":5,"textLines":1,"bbox":[355,220,210,74]}
+{"kind":"textbox","id":"sh/qdgz29wr","slide":5,"text":"owned vehicles","textPreview":"owned vehicles","textChars":14,"textLines":1,"bbox":[349,290,222,50]}
+{"kind":"textbox","id":"sh/bepgvedc","slide":5,"text":"300","textPreview":"300","textChars":3,"textLines":1,"bbox":[610,220,210,74]}
+{"kind":"textbox","id":"sh/wv2hg3eh","slide":5,"text":"inventory vehicles","textPreview":"inventory vehicles","textChars":18,"textLines":1,"bbox":[604,290,222,50]}
+{"kind":"textbox","id":"sh/xwbi98vm","slide":5,"text":"5,000","textPreview":"5,000","textChars":5,"textLines":1,"bbox":[865,220,210,74]}
+{"kind":"textbox","id":"sh/1cvixw3e","slide":5,"text":"historical appointments","textPreview":"historical appointments","textChars":23,"textLines":1,"bbox":[859,290,222,50]}
+{"kind":"shape","id":"sh/gbmhobmt","slide":5,"bbox":[130,452,9,9]}
+{"kind":"textbox","id":"sh/fad0v6l8","slide":5,"text":"Models relationships across customers, vehicles, appointments, service history, slots, leads, conversations, tool executions, and escalations.","textPreview":"Models relationships across customers, vehicles, appointments, service history, slots, leads, conversations, tool executions, and escalat...","textChars":142,"textLines":1,"bbox":[154,445,940,44]}
+{"kind":"shape","id":"sh/u9kzm14n","slide":5,"bbox":[130,512,9,9]}
+{"kind":"textbox","id":"sh/t8bytw32","slide":5,"text":"Deterministic generation supports repeatable tests, evaluation reports, and model artifacts.","textPreview":"Deterministic generation supports repeatable tests, evaluation reports, and model artifacts.","textChars":92,"textLines":1,"bbox":[154,505,940,44]}
+{"kind":"shape","id":"sh/s72hkrmh","slide":5,"bbox":[130,572,9,9]}
+{"kind":"textbox","id":"sh/76tgrmlw","slide":5,"text":"Feature design avoids real PII and protected-class fields.","textPreview":"Feature design avoids real PII and protected-class fields.","textChars":58,"textLines":1,"bbox":[154,565,940,44]}
+{"kind":"shape","id":"sh/65kzih4r","slide":5,"bbox":[72,668,1136,1]}
+{"kind":"textbox","id":"sh/d4fi5g3m","slide":5,"text":"DealerAI Ops interview explainer","textPreview":"DealerAI Ops interview explainer","textChars":32,"textLines":1,"bbox":[72,680,420,24]}
+{"kind":"textbox","id":"sh/c36hwvm1","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1160,680,48,24]}
+{"kind":"notes","id":"nt/ci968f","slide":5,"text":""}
+{"kind":"slide","id":"sl/mgqvcn","slide":6,"title":"PREDICTIVE ML","textShapes":14}
+{"kind":"textbox","id":"sh/wbat0rid","slide":6,"text":"PREDICTIVE ML","textPreview":"PREDICTIVE ML","textChars":13,"textLines":1,"bbox":[72,42,620,26]}
+{"kind":"textbox","id":"sh/ba1s7mhs","slide":6,"text":"No-show prediction is built as a real ML pipeline","textPreview":"No-show prediction is built as a real ML pipeline","textChars":49,"textLines":1,"bbox":[72,76,1010,86]}
+{"kind":"textbox","id":"sh/a9sbyh07","slide":6,"text":"Synthetic appointment data\nbooking-time features","textPreview":"Synthetic appointment data | booking-time features","textChars":48,"textLines":2,"bbox":[78,226,178,118]}
+{"kind":"textbox","id":"sh/lg3adgzu","slide":6,"text":"Leakage inspection\nexclude outcome signals","textPreview":"Leakage inspection | exclude outcome signals","textChars":42,"textLines":2,"bbox":[306,226,178,118]}
+{"kind":"textbox","id":"sh/kfut4bi9","slide":6,"text":"sklearn pipeline\npreprocessing stays aligned","textPreview":"sklearn pipeline | preprocessing stays aligned","textChars":44,"textLines":2,"bbox":[534,226,178,118]}
+{"kind":"textbox","id":"sh/je1sb6ho","slide":6,"text":"Model comparison\nbaseline + calibrated tree","textPreview":"Model comparison | baseline + calibrated tree","textChars":43,"textLines":2,"bbox":[762,226,178,118]}
+{"kind":"textbox","id":"sh/ydsb2103","slide":6,"text":"Risk tiers\nLOW to VERY_HIGH","textPreview":"Risk tiers | LOW to VERY_HIGH","textChars":27,"textLines":2,"bbox":[990,226,178,118]}
+{"kind":"textbox","id":"sh/t43ahgzq","slide":6,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[262,268,32,32]}
+{"kind":"textbox","id":"sh/83ut8bil","slide":6,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[490,268,32,32]}
+{"kind":"textbox","id":"sh/ax8n61sf","slide":6,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[718,268,32,32]}
+{"kind":"textbox","id":"sh/byh4z6t0","slide":6,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[946,268,32,32]}
+{"kind":"textbox","id":"sh/wzq58bal","slide":6,"text":"Evaluated with ROC-AUC, PR-AUC, precision, recall, F1, Brier score, confusion matrix, calibration diagnostics, and threshold analysis.","textPreview":"Evaluated with ROC-AUC, PR-AUC, precision, recall, F1, Brier score, confusion matrix, calibration diagnostics, and threshold analysis.","textChars":134,"textLines":1,"bbox":[116,440,1048,98]}
+{"kind":"shape","id":"sh/x0zm1gb6","slide":6,"bbox":[72,668,1136,1]}
+{"kind":"textbox","id":"sh/y18na1sr","slide":6,"text":"DealerAI Ops interview explainer","textPreview":"DealerAI Ops interview explainer","textChars":32,"textLines":1,"bbox":[72,680,420,24]}
+{"kind":"textbox","id":"sh/j2h436tc","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1160,680,48,24]}
+{"kind":"notes","id":"nt/mgqvcn","slide":6,"text":""}
+{"kind":"slide","id":"sl/mstv6m","slide":7,"title":"RETRIEVAL","textShapes":13}
+{"kind":"textbox","id":"sh/z2t0fits","slide":7,"text":"RETRIEVAL","textPreview":"RETRIEVAL","textChars":9,"textLines":1,"bbox":[72,42,620,26]}
+{"kind":"textbox","id":"sh/0321onax","slide":7,"text":"RAG is citation-first and evaluated separately","textPreview":"RAG is citation-first and evaluated separately","textChars":46,"textLines":1,"bbox":[72,76,1010,86]}
+{"kind":"textbox","id":"sh/14b2hsbi","slide":7,"text":"Knowledge corpus","textPreview":"Knowledge corpus","textChars":16,"textLines":1,"bbox":[120,194,260,50]}
+{"kind":"textbox","id":"sh/qx0jidcv","slide":7,"text":"fictional dealership policies","textPreview":"fictional dealership policies","textChars":29,"textLines":1,"bbox":[380,194,560,50]}
+{"kind":"textbox","id":"sh/ry90bitg","slide":7,"text":"Normalize + chunk","textPreview":"Normalize + chunk","textChars":17,"textLines":1,"bbox":[120,288,260,50]}
+{"kind":"textbox","id":"sh/cz21kna1","slide":7,"text":"section-aware metadata","textPreview":"section-aware metadata","textChars":22,"textLines":1,"bbox":[380,288,560,50]}
+{"kind":"textbox","id":"sh/d0bid8bm","slide":7,"text":"Local embeddings","textPreview":"Local embeddings","textChars":16,"textLines":1,"bbox":[120,382,260,50]}
+{"kind":"textbox","id":"sh/290jetcz","slide":7,"text":"deterministic test mode","textPreview":"deterministic test mode","textChars":23,"textLines":1,"bbox":[380,382,560,50]}
+{"kind":"textbox","id":"sh/3u907ytk","slide":7,"text":"Retrieve + cite","textPreview":"Retrieve + cite","textChars":15,"textLines":1,"bbox":[120,476,260,50]}
+{"kind":"textbox","id":"sh/v6dcfmhg","slide":7,"text":"document, section, chunk, score","textPreview":"document, section, chunk, score","textChars":31,"textLines":1,"bbox":[380,476,560,50]}
+{"kind":"textbox","id":"sh/a54bmhgb","slide":7,"text":"Retrieval eval\nRecall@K\nMRR\nHit Rate@K","textPreview":"Retrieval eval | Recall@K | MRR | Hit Rate@K","textChars":38,"textLines":4,"bbox":[982,236,180,220]}
+{"kind":"shape","id":"sh/x8vuhczm","slide":7,"bbox":[72,668,1136,1]}
+{"kind":"textbox","id":"sh/w7mtory1","slide":7,"text":"DealerAI Ops interview explainer","textPreview":"DealerAI Ops interview explainer","textChars":32,"textLines":1,"bbox":[72,680,420,24]}
+{"kind":"textbox","id":"sh/judcjmhs","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1160,680,48,24]}
+{"kind":"notes","id":"nt/mstv6m","slide":7,"text":""}

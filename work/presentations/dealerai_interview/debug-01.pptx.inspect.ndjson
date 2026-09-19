@@ -1,0 +1,14 @@
+{"kind":"deck","id":"pr/hf0fly","name":"Deck"}
+{"kind":"layout","layoutId":"6f9e3ba5-3ea6-46e8-b528-bdac4665b7d9","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"60e828ca-fdbb-4b54-b0c9-10e2e01f69f5","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/gfc8eu","slide":1,"title":"DealerAI Ops","textShapes":7}
+{"kind":"textbox","id":"sh/qtkf2h0n","slide":1,"text":"DealerAI Ops","textPreview":"DealerAI Ops","textChars":12,"textLines":1,"bbox":[78,122,760,86]}
+{"kind":"shape","id":"sh/dwbydwjy","slide":1,"bbox":[82,218,210,4]}
+{"kind":"textbox","id":"sh/cv2x4rit","slide":1,"text":"Production-oriented agentic AI and predictive intelligence for automotive dealerships","textPreview":"Production-oriented agentic AI and predictive intelligence for automotive dealerships","textChars":85,"textLines":1,"bbox":[82,258,820,86]}
+{"kind":"textbox","id":"sh/zytgf614","slide":1,"text":"Interview explainer | implemented capabilities, architecture decisions, and honest limitations","textPreview":"Interview explainer | implemented capabilities, architecture decisions, and honest limitations","textChars":94,"textLines":1,"bbox":[82,376,760,70]}
+{"kind":"textbox","id":"sh/yxkf610j","slide":1,"text":"Local-first reference implementation\nNo real PII | No paid API required | AWS mapping documented","textPreview":"Local-first reference implementation | No real PII | No paid API required | AWS mapping documented","textChars":96,"textLines":2,"bbox":[820,122,324,260]}
+{"kind":"textbox","id":"sh/l0byhwja","slide":1,"text":"Built for senior AI/ML engineering discussion","textPreview":"Built for senior AI/ML engineering discussion","textChars":45,"textLines":1,"bbox":[82,592,580,32]}
+{"kind":"shape","id":"sh/0z2x8bip","slide":1,"bbox":[72,668,1136,1]}
+{"kind":"textbox","id":"sh/f29w3210","slide":1,"text":"DealerAI Ops interview explainer","textPreview":"DealerAI Ops interview explainer","textChars":32,"textLines":1,"bbox":[72,680,420,24]}
+{"kind":"textbox","id":"sh/e1gfuxkf","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1160,680,48,24]}
+{"kind":"notes","id":"nt/gfc8eu","slide":1,"text":""}

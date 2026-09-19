@@ -1,0 +1,30 @@
+{"kind":"deck","id":"pr/afio9s","name":"Deck"}
+{"kind":"layout","layoutId":"0ebf8bcb-7280-4ae8-ad90-11f7930ef4e3","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"b24dcd03-6be8-40bf-af16-57a3076e5a70","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/sepjm6","slide":1,"title":"DealerAI Ops","textShapes":7}
+{"kind":"textbox","id":"sh/hc36d0r6","slide":1,"text":"DealerAI Ops","textPreview":"DealerAI Ops","textChars":12,"textLines":1,"bbox":[78,122,760,86]}
+{"kind":"shape","id":"sh/upc72lsf","slide":1,"bbox":[82,218,210,4]}
+{"kind":"textbox","id":"sh/vqlobq90","slide":1,"text":"Production-oriented agentic AI and predictive intelligence for automotive dealerships","textPreview":"Production-oriented agentic AI and predictive intelligence for automotive dealerships","textChars":85,"textLines":1,"bbox":[82,258,820,86]}
+{"kind":"textbox","id":"sh/8nu50bap","slide":1,"text":"Interview explainer | implemented capabilities, architecture decisions, and honest limitations","textPreview":"Interview explainer | implemented capabilities, architecture decisions, and honest limitations","textChars":94,"textLines":1,"bbox":[82,376,760,70]}
+{"kind":"textbox","id":"sh/to369gru","slide":1,"text":"Local-first reference implementation\nNo real PII | No paid API required | AWS mapping documented","textPreview":"Local-first reference implementation | No real PII | No paid API required | AWS mapping documented","textChars":96,"textLines":2,"bbox":[820,122,324,260]}
+{"kind":"textbox","id":"sh/6lcnylsj","slide":1,"text":"Built for senior AI/ML engineering discussion","textPreview":"Built for senior AI/ML engineering discussion","textChars":45,"textLines":1,"bbox":[82,592,580,32]}
+{"kind":"shape","id":"sh/7mlo7q94","slide":1,"bbox":[72,668,1136,1]}
+{"kind":"textbox","id":"sh/kja5wbad","slide":1,"text":"DealerAI Ops interview explainer","textPreview":"DealerAI Ops interview explainer","textChars":32,"textLines":1,"bbox":[72,680,420,24]}
+{"kind":"textbox","id":"sh/lkj65gry","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1160,680,48,24]}
+{"kind":"notes","id":"nt/sepjm6","slide":1,"text":""}
+{"kind":"slide","id":"sl/7livkn","slide":2,"title":"THESIS","textShapes":9}
+{"kind":"textbox","id":"sh/lcvehczq","slide":2,"text":"THESIS","textPreview":"THESIS","textChars":6,"textLines":1,"bbox":[72,42,620,26]}
+{"kind":"textbox","id":"sh/y94v6x0z","slide":2,"text":"The project proves agentic AI can be engineered, tested, and bounded","textPreview":"The project proves agentic AI can be engineered, tested, and bounded","textChars":68,"textLines":1,"bbox":[72,76,1010,86]}
+{"kind":"shape","id":"sh/zadwf2hk","slide":2,"bbox":[94,217,9,9]}
+{"kind":"textbox","id":"sh/8fmdcrih","slide":2,"text":"LLM reasoning is separated from domain logic and persistence.","textPreview":"LLM reasoning is separated from domain logic and persistence.","textChars":61,"textLines":1,"bbox":[118,210,850,44]}
+{"kind":"shape","id":"sh/tgfelwzm","slide":2,"bbox":[94,293,9,9]}
+{"kind":"textbox","id":"sh/6d4vah0b","slide":2,"text":"All external actions happen through typed Pydantic tools.","textPreview":"All external actions happen through typed Pydantic tools.","textChars":57,"textLines":1,"bbox":[118,286,850,44]}
+{"kind":"shape","id":"sh/7edwjmhw","slide":2,"bbox":[94,369,9,9]}
+{"kind":"textbox","id":"sh/oj2d0nix","slide":2,"text":"Predictive ML and RAG are implemented as independent services.","textPreview":"Predictive ML and RAG are implemented as independent services.","textChars":62,"textLines":1,"bbox":[118,362,850,44]}
+{"kind":"shape","id":"sh/pkbe9szi","slide":2,"bbox":[94,445,9,9]}
+{"kind":"textbox","id":"sh/5kru5c32","slide":2,"text":"Guardrails, escalation, evaluation, and observability are first-class.","textPreview":"Guardrails, escalation, evaluation, and observability are first-class.","textChars":70,"textLines":1,"bbox":[118,438,850,44]}
+{"kind":"textbox","id":"sh/4zitw7mh","slide":2,"text":"Core claim\n\nThe system is designed around transaction safety and measurable behavior, not chatbot novelty.","textPreview":"Core claim |  | The system is designed around transaction safety and measurable behavior, not chatbot novelty.","textChars":106,"textLines":3,"bbox":[860,220,300,260]}
+{"kind":"shape","id":"sh/3y9c32lw","slide":2,"bbox":[72,668,1136,1]}
+{"kind":"textbox","id":"sh/ix0bux4b","slide":2,"text":"DealerAI Ops interview explainer","textPreview":"DealerAI Ops interview explainer","textChars":32,"textLines":1,"bbox":[72,680,420,24]}
+{"kind":"textbox","id":"sh/dobu9c3y","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1160,680,48,24]}
+{"kind":"notes","id":"nt/7livkn","slide":2,"text":""}
