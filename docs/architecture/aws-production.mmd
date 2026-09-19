@@ -1,0 +1,62 @@
+flowchart TB
+  subgraph internet["Public ingress"]
+    client["Customer or staff client"]
+    apigw["Amazon API Gateway"]
+  end
+
+  subgraph aws_managed_ai["AWS managed AI and retrieval"]
+    bedrock["Amazon Bedrock foundation model"]
+    kb["Bedrock Knowledge Bases"]
+    opensearch["OpenSearch Serverless alternative"]
+  end
+
+  subgraph vpc["Application VPC"]
+    subgraph private_app["Private application boundary"]
+      lambda["AWS Lambda FastAPI container"]
+      agent["Agent orchestrator"]
+      guardrails["Guardrails and policy enforcement"]
+      tools["Typed tool executor"]
+      ml["No-show inference pipeline"]
+      domain["Domain services and repositories"]
+    end
+
+    subgraph private_data["Private data boundary"]
+      aurora["Aurora PostgreSQL"]
+      pgvector["Aurora pgvector tables"]
+      rdsproxy["Optional RDS Proxy"]
+    end
+  end
+
+  subgraph artifacts["Encrypted artifact storage"]
+    s3_knowledge["S3 knowledge documents"]
+    s3_models["S3 model artifacts"]
+    s3_eval["S3 evaluation reports"]
+  end
+
+  subgraph operations["Operations and security"]
+    secrets["AWS Secrets Manager"]
+    iam["IAM least-privilege roles"]
+    cw["CloudWatch logs, metrics, alarms"]
+  end
+
+  client --> apigw
+  apigw --> lambda
+  lambda --> agent
+  agent --> guardrails
+  guardrails --> bedrock
+  bedrock --> agent
+  agent --> tools
+  agent --> kb
+  agent --> pgvector
+  agent -. optional vector backend .-> opensearch
+  tools --> domain
+  domain --> rdsproxy
+  rdsproxy --> aurora
+  aurora --> pgvector
+  ml --> s3_models
+  s3_knowledge --> kb
+  s3_eval --> cw
+  secrets --> lambda
+  iam --> lambda
+  lambda --> cw
+  bedrock --> cw
